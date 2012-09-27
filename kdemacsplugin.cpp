@@ -189,24 +189,6 @@ void KDEmacsView::textInsertedHandler (KTextEditor::View* view, KTextEditor::Cur
 }
 
 
-void KDEmacsView::keyPressEvent (QKeyEvent* e)
-{
-  qDebug()<<"keyPressEvent ("<<e<<")";
-//     if (m_blockInsert) {
-//         m_view->document()->startEditing();
-//         m_view->setBlockSelection (false);
-// 	int col = m_view->cursorPosition().column();
-// 	int row = m_view->cursorPosition().line();
-//         for (int i = m_startBlockInsertRow;
-//                 i <= m_stopBlockInsertRow; i++) {
-// 		m_view->setCursorPosition(KTextEditor::Cursor(row,col));
-// 		keyPressEvent(e);                
-//         }
-//         m_view->document()->endEditing();
-//     }
-}
-
-
 void KDEmacsView::setMark()
 {
     if (m_previousMark.isValid()) {
