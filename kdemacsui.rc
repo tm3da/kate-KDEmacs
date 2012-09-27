@@ -1,0 +1,22 @@
+<!DOCTYPE kpartgui>
+<kpartplugin name="ktexteditor_kdemacs" library="ktexteditor_kdemacs" version="2">
+<MenuBar>
+ <Menu name="tools"><Text>&amp;Tools</Text>
+    <separator group="tools_kdemacs_operations" />
+    <Action name="tools_kdemacs_set_mark"                  group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_goto_start_line"           group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_goto_end_line"             group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_kill_line"                 group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_kill_region"               group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_copy_region"               group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_yank"                      group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_browse_kill_ring_forward"  group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_browse_kill_ring_backward" group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_rect_insert"               group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_rect_delete"               group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_rect_kill"                 group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_rect_yank"                 group="tools_kdemacs_operations"/>
+    <Action name="tools_kdemacs_general_stop"              group="tools_kdemacs_operations"/>
+</Menu>
+</MenuBar>
+</kpartplugin>
