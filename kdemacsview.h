@@ -31,7 +31,6 @@ public slots:
     void rectYank(); //C-x r y
     void generalStop(); //C-g
 protected:
-    void keyPressEvent (QKeyEvent* e);
     void browseKillRing (bool forward);
 
 protected slots:
