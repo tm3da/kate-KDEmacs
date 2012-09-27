@@ -1,6 +1,6 @@
 #include "kdemacsplugin.h"
 #include "kdemacsview.h"
-#include "../kate/ktexteditor/smartcursor.h"
+#include "ktexteditor/smartcursor.h"
 
 #include <KTextEditor/Document>
 #include <KTextEditor/View>
